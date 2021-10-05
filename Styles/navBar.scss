@@ -1,0 +1,30 @@
+.topNav {
+
+    margin: 0;
+    overflow: hidden;
+    background-color: $white3;
+    border: 0.05px solid #F2F1F1;
+    box-shadow: 0px 2.5px 2.5px rgba(0, 0, 0, 0.25);
+    border-radius: 0 0 8px  8px;
+
+    svg {
+        
+        float: left;
+        padding: 1em 7em;
+        width: auto;
+        height: 42px;
+
+    }
+
+    a {
+
+        float: right;
+        color: $grey;
+        text-align: center;
+        padding: 1.68em 3em;
+        text-decoration: none;
+        font-size: 1em;
+        font-weight: $fw700;
+
+    }
+}

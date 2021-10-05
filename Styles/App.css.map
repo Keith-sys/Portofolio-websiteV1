@@ -1,0 +1,18 @@
+{
+    "version": 3,
+    "mappings": "AOAA,AAAA,IAAI,CAAC;EAED,MAAM,EAAE,CAAC;CACZ;;AACD,AAAA,OAAO,CAAC;EAEJ,MAAM,EAAE,CAAC;EACT,QAAQ,EAAE,MAAM;EAChB,gBAAgB,ELKX,yBAAyB;EKJ9B,MAAM,EAAE,oBAAoB;EAC5B,UAAU,EAAE,GAAG,CAAC,KAAK,CAAC,KAAK,CAAC,mBAAmB;EAC/C,aAAa,EAAE,YAAY;CAqB9B;;AA5BD,AASI,OATG,CASH,GAAG,CAAC;EAEA,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,OAAO;CAGnB;;AAfL,AAiBI,OAjBG,CAiBH,CAAC,CAAC;EAEE,KAAK,EAAE,KAAK;EACZ,KAAK,ELdN,OAAO;EKeN,UAAU,EAAE,MAAM;EAClB,OAAO,EAAE,UAAU;EACnB,eAAe,EAAE,IAAI;EACrB,SAAS,EAAE,GAAG;EACd,WAAW,ELxBX,GAAG;CK0BN",
+    "sources": [
+        "App.scss",
+        "mixins.scss",
+        "variables.scss",
+        "typography.scss",
+        "aboutSection.scss",
+        "contactSection.scss",
+        "footer.scss",
+        "navBar.scss",
+        "workSection.scss",
+        "page.scss"
+    ],
+    "names": [],
+    "file": "App.css"
+}

@@ -1,0 +1,91 @@
+.introduction-container {    
+
+    .introduction-content {
+
+        display: grid;
+        padding: 2em;
+        grid-template-columns: 300px 1fr;
+        gap: 1rem;
+        align-items: center;
+        margin: 10em;
+        margin-top: 7em;
+        margin-bottom: 7em;
+
+        .introduction-text{
+            
+            padding-left: 0.75em;
+            
+            h1 {
+
+                font-size: 4.5em;
+                color: $blue;
+                margin-bottom: 0.01em;
+                margin-top: 0.01em;
+            }
+
+            p {
+
+                margin-top: 0.25em;
+                margin-bottom: 0.25em;
+                font-size: 1.15em;
+                font-weight: 400;
+
+                span {
+                    
+                    font-weight: $fw700;
+                
+                }
+            }
+
+            .wrap {
+    
+                justify-content: center;
+                align-items: center;
+    
+                .item {
+    
+                    padding: 10px;
+                    padding-left: 0;
+    
+                    button {
+            
+                        outline: none;
+                        display: block;
+                        border: 0;
+                        line-height: 1;
+                        font-size: 1em;
+                        padding: 16px 30px;
+                        border-radius: 30px;
+                        background-color: $blue;
+                        color: white;
+                        font-family: $font;
+                        font-weight: bold;
+                        cursor: pointer;
+                        transition: all 0.3s linear;
+            
+                        :hover, 
+                        :focus {
+    
+                            background: #005c99;
+    
+                        }
+                        :active {
+    
+                            background: #003659;
+    
+                        }
+                    }
+                }      
+            }
+        }
+
+                
+        img {
+            
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%;
+
+        }
+    }
+}

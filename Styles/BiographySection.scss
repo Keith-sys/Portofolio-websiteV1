@@ -1,0 +1,24 @@
+.BiographySection {
+
+    margin: 10em;
+
+    .title {
+
+        padding-bottom: 0.3em;
+        border-bottom: 2px solid #707070;
+        font-size: x-large;
+        font-weight: $fw700;
+
+    }
+    .biography-content{
+
+        color: rgba(0, 0, 0, 0.8);
+        margin-top: 1em;
+        font-size: larger;
+
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+}

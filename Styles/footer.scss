@@ -1,0 +1,28 @@
+.site-footer {
+    
+    color: $black;
+    font-weight: $fw600;
+    position: relative;
+    overflow: hidden;
+    background: #F4F4F4;
+    padding: 0.15em;
+
+
+    .site-footer-content {
+        
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        overflow: hidden;
+        font-size: 1em;
+
+    }
+
+    .inner {
+        
+        margin: 0px auto;
+        max-width: 1040px;
+        width: 100%;
+
+    }
+}

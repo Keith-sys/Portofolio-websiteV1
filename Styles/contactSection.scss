@@ -1,0 +1,30 @@
+.Contact {
+
+    margin: 8em;
+    padding: 1em;
+    text-align: center;
+
+    .contact-text {
+
+        padding: 0.5em;
+
+        h6 {
+
+            font-size: 2em;
+            margin: 0.15em;
+
+        }
+    }
+
+    .contact-option { 
+
+        padding: 0.25em;
+        
+        svg {
+            
+            width: auto;
+            height: 3em;
+            padding: 0.3em;
+        }
+    }
+}
